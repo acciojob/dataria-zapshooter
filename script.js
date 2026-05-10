@@ -1,5 +1,4 @@
-//your JS code here. If required.
-function mergeCraftDates(emily, oliver) {
+window.mergeCraftDates = function mergeCraftDates(emily, oliver) {
   const merged = [];
   let i = 0, j = 0;
 
