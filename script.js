@@ -24,3 +24,11 @@ function mergeCraftDates(emily, oliver) {
 
   return merged;
 }
+
+// --- ADD THIS TO EXPORT YOUR FUNCTION ---
+// This ensures Cypress can find and test your function
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = mergeCraftDates;
+} else {
+  window.mergeCraftDates = mergeCraftDates;
+}
